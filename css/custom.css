@@ -1,0 +1,29 @@
+.circular {
+	width: 150px;
+	height: 150px;
+	-webkit-border-radius: 75px;
+	-moz-border-radius: 75px;
+	border-radius: 75px;
+
+	background: url(http://www.gravatar.com/avatar/cbd668c10f6384662519c3a4875661a8?s=150) no-repeat;
+
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+
+	margin-bottom: 20px;
+	margin-top: 10px;
+	margin: 15px auto;
+	}
+
+.button {
+	display: block;
+	width:100%;
+	padding: 5px 10px;
+	opacity:.9;
+	margin-bottom:10px;
+}
+
+.button:hover {
+	opacity:1;
+}
